@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+<channel>
+        <title>Pixels Per Inch</title>
+        <itunes:author>Brian E. Davis</itunes:author>
+        <link>http://www.pixelsperinch.org</link>
+        <description>I supervise the digitization of scholarly and archival materials for a university library in the Pacific Northwest. This podcast will document what happens along the way.</description>
+        <itunes:subtitle>I supervise the digitization of scholarly and archival materials for a large university library in the Pacific Northwest. This podcast will document what happens along the way.</itunes:subtitle>
+        <itunes:summary>I supervise the digitization of scholarly and archival materials for a large university library in the Pacific Northwest. This podcast will document what happens along the way.</itunes:summary>
+        <language>EN</language>
+        <copyright>2014 pixelsperinch.org</copyright>
+        <itunes:owner>
+            <itunes:name>Brian E. Davis</itunes:name>
+            <itunes:email>tvc15@mac.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://people.oregonstate.edu/~davibria/images/iTunes.png" />
+        <category>Education</category>
+        <itunes:category text="Education"></itunes:category>
+
+
+
+     <item> 
+          <title>Geo Tagging</title>
+          <itunes:author>Pixels Per Inch</itunes:author>
+          <description>This tutorial shows how to add GIS metadata to your scanned photographs using Geotagger and Google Earth.</description>
+          <itunes:subtitle>Adding GPS Info To Photos</itunes:subtitle>
+          <itunes:summary>This tutorial shows how to add GIS metadata to your scanned photographs using Geotagger and Google Earth.</itunes:summary>
+          <enclosure url="http://people.oregonstate.edu/~davibria/geo_tags.m4v" length="000105" type="video/mov" />
+          <guid>http://people.oregonstate.edu/~davibria/geo_tags.m4v</guid>
+          <pubDate>Sun, 06 Jan 2013 07:38:00 EST</pubDate>
+          <itunes:explicit>no</itunes:explicit>
+          <itunes:duration>00:01:05</itunes:duration>
+          <itunes:keywords>Oregon State University, OSU, Pixels Per Inch, Brian E. Davis</itunes:keywords>
+    </item>
+
+
+
+
+    <item>
+          <title>Accessibility Tags</title>
+          <itunes:author>Pixels Per Inch</itunes:author>
+          <description>This video shows the text-to-speech benefits of adding accessibility tags to your scanned documents.</description>
+          <itunes:subtitle>Adding Accessibility Tags</itunes:subtitle>
+          <itunes:summary>This video shows the text-to-speech benefits of adding accessibility tags to your scanned documents.</itunes:summary>
+          <enclosure url="http://people.oregonstate.edu/~davibria/accessibility_tags.mp4" length="000105" type="video/mov" />
+          <guid>http://people.oregonstate.edu/~davibria/accessibility_tags.mp4</guid>
+          <pubDate>Sun, 06 Jan 2013 07:38:00 EST</pubDate>
+          <itunes:explicit>no</itunes:explicit>
+          <itunes:duration>00:01:05</itunes:duration>
+          <itunes:keywords>Oregon State University, OSU, Pixels Per Inch, Brian E. Davis</itunes:keywords>
+    </item>
+
+
+
+
+   <item>
+          <title>Keynote to PowerPoint</title>
+          <itunes:author>Pixels Per Inch</itunes:author>
+          <description>This tutorial shows how to convert your Keynote presentation file into a PowerPoint file.</description>
+          <itunes:subtitle>Convert Your Keynote Into a PowerPoint</itunes:subtitle>
+          <itunes:summary>This tutorial shows how to convert your Keynote presentation file into a PowerPoint file.</itunes:summary>
+          <enclosure url="http://people.oregonstate.edu/~davibria/keynote2powerpoint.m4v" length="000118" type="video/mov" />
+          <guid>http://people.oregonstate.edu/~davibria/keynote2powerpoint.m4v</guid>
+          <pubDate>Sun, 30 Mar 2011 07:38:00 EST</pubDate>
+          <itunes:explicit>no</itunes:explicit>
+          <itunes:duration>00:01:18</itunes:duration>
+          <itunes:keywords>High Point University, HPU, Pixels Per Inch, Brian E. Davis</itunes:keywords>
+        </item>
+
+
+
+
+
+		 <item>
+          <title>Arrival</title>
+          <itunes:author>Pixels Per Inch</itunes:author>
+          <description>This video short features the words of Merry Masunaga as she gives her first impressions of the Poston Internment Camp. The audio was taken from an oral history she recorded in 1979 from the Department of Archives and Special Collections at Arizona State University Libraries. The color film footage of the Poston Camp is courtesy of the Arizona Historical Foundation. </description>
+          <itunes:subtitle>the Arizona Experience</itunes:subtitle>
+          <itunes:summary>This video short features the words of Merry Masunaga as she gives her first impressions of the Poston Internment Camp. The audio was taken from an oral history she recorded in 1979 from the Department of Archives and Special Collections at Arizona State University Libraries. The color film footage of the Poston Camp is courtesy of the Arizona Historical Foundation. </itunes:summary>
+          <enclosure url="http://people.oregonstate.edu/~davibria/arrival.m4v" length="000146" type="video/mov" />
+          <guid>http://people.oregonstate.edu/~davibria/arrival.m4v</guid>
+          <pubDate>Thu, 24 July 2006 07:38:00 EST</pubDate>
+          <itunes:explicit>no</itunes:explicit>
+          <itunes:duration>00:01:46</itunes:duration>
+          <itunes:keywords>Arizona State University, ASU, tvc15media, Brian E. Davis</itunes:keywords>
+        </item>
+
+
+
+
+</channel>
+</rss>

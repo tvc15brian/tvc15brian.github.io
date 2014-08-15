@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brian E. Davis | tvc15Media</title>
+<meta charset="utf-8" />
+<meta name="description" content="Portfolio and professional pages of Brian E. Davis, a Web developer, visual materials archivist, and a digitization sepecialist." />
+<meta name="keywords" content="web, graphic, designer, html, xhtml, css" />
+<meta name="robots" content="all, index, follow" />
+
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="css/style.css" media="all" />
+<link rel="stylesheet" href="css/print.css" media="print" />
+
+<link rel="stylesheet" href="nav/css/nav.css">
+		<!--[if IE]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+        
+        <!--[if IE 7]>
+	<link rel="stylesheet" href="../nav/css/ie.css">
+ 	<link rel="stylesheet" href="../nav/css/ie7.css">
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+
+<script>
+		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+</script>
+
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+     <script type="text/javascript">
+   jQuery(document).ready(function() {
+
+	$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: true,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'width'			: 250,
+			'height'		: 436,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+});
+
+</script>
+
+     <script type="text/javascript">
+   jQuery(document).ready(function() {
+
+	$(".video2").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: true,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'width'			: 640,
+			'height'		: 420,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+});
+
+</script>
+   
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+
+			$("a[rel=group1]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			$("a[rel=group2]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+			$("a[rel=group3]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+
+			$("a[rel=group4]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+				$("a[rel=group5]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+				$("a[rel=group6]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+				$("a[rel=group7]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			
+				$("a[rel=group8]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		
+		});
+	</script>
+    <style type="text/css">
+<!--
+.style8 {font-weight: bold; font-size: 9pt;}
+body {
+	background-color: #999999;
+}
+-->
+    </style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+
+<body>
+<div id="page">
+<header>
+		<div id="logo"></div>
+    <script>
+	var el = document.getElementsByTagName("body")[0];
+	el.className = "";
+</script>
+<noscript>
+<!--[if IE]>
+	<link rel="stylesheet" href="nav/css/ie.css">
+<![endif]-->
+</noscript>
+
+		<nav id="topNav">
+       	  <ul>
+   		    <li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="video.html" title="Video Production">Video</a></li>
+			<li><a href="webdev.html" title="Web / iOS Development">Web / iOS</a></li>
+			<li><a href="design.html" title="Design">Design</a></li>
+            <li><a href="extras.html" title="tumblr">tumblr</a></li>
+		  </ul>
+	  </nav>
+
+
+	
+	  <script src="nav/js/modernizr.js"></script>
+
+	
+	</header>
+        <p>&nbsp;</p>
+	
+<section id="main2">
+
+  <section class="col_left">
+    <h1 class="style4">pixels per inch tumblr</h1>
+    <p>
+      <style>
+/* Removes Buzzboost Logo (MBT) */
+div  #creditfooter{ 
+display: none; 
+} 
+      </style>
+
+<script src="http://feeds.feedburner.com/tumblr/PWhz?format=sigpro" type="text/javascript" ></script><noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/tumblr/PWhz"></a><br/>Powered by FeedBurner</p> </noscript>
+
+  </section>
+
+  <div class="clear"></div>
+</div>
+
+<footer>
+<div class="c1"><small id="copyright"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br /></small></div><br><br>
+</footer>	
+
+
+
+	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5986504-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</body>
+</html>
