@@ -46,7 +46,7 @@ Save this file in the css directory as nav.css. The first rule is purely for whe
 .no-borderradius nav ul ul, .no-js nav ul ul { background:none; }
 .no-borderradius nav li, .no-js nav li { height:44px; }
 .no-cssgradients nav li:hover, .no-js nav li:hover { background:#ffffff; }
-.no-borderradius nav li li, .no-js nav li li { height:auto; width:98%; left:-2px; }
+.no-borderradius nav li li, .no-js nav li li { height:auto; width:98%; left:-0px; }
 .no-borderradius nav li:first-child, .no-js nav li:first-child { background:none; }
 .no-borderradius nav li:first-child:hover, .no-js nav li:first-child:hover { background:none; }
 .no-borderradius nav li li:first-child, .no-js nav li li:first-child { background:none; }
